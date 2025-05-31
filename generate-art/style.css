@@ -1,0 +1,56 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Press Start 2P', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f00;
+  text-align: center;
+  image-rendering: pixelated;
+}
+
+#container {
+  background: #111;
+  padding: 30px;
+  border: 4px double #f00;
+  width: 700px;
+  box-shadow: 0 0 20px #f00;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #f00;
+  text-shadow: 1px 1px #900;
+}
+
+pre.art {
+  font-size: 9px;
+  line-height: 1.1;
+  margin: 20px auto 0;
+  white-space: pre;
+  color: #0f0;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: #222;
+  border: 2px solid #f00;
+  color: #f00;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background: #f00;
+  color: #000;
+}
